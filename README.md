@@ -8,11 +8,14 @@
 - This app provides an interactive and visually appealing experience for users to build their unique space environments, with user preferences saved locally to ensure persistence between sessions.
 - 
 ## ✨ Features
-- Customizable Spaces: Users can create and personalize virtual spaces with names, colours, and themes.
-- Persistent Data Storage: Spaces are stored locally using SharedPreferences, ensuring user data is saved and accessible across app launches.
-- Smooth Animations: The app utilizes Flutter’s animation framework for fluid and engaging transitions between screens and interactions.
-- Interactive User Interface: A responsive design that adapts to different screen sizes and orientations.
-- Easy Navigation: Simple and intuitive navigation to guide users through space creation and customization.
+- AnimatedContainer: Inside PlanetDetails, use AnimatedContainer as the main widget. It animates changes to its properties like width, height, and borderRadius based on _isLarge state.
+
+- State Management: _PlanetDetailsState manages the _isLarge boolean state. Tapping on the container toggles _isLarge, triggering the animation due to setState().
+
+- GestureDetector: Wraps the AnimatedContainer to detect taps and call _toggleSize to change _isLarge.
+
+- Animation Properties: duration specifies how long the animation should take (1 second in this case), and curve defines the animation's speed curve (here, Curves.fastOutSlowIn for a smooth transition).
+- 
 ## 🛠️ Technologies Used
 **Flutter:** Framework for building the app’s UI and functionality.
 **SharedPreferences:** For local storage, saving user settings and space configurations.
