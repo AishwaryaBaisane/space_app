@@ -23,7 +23,7 @@
 
 ## 📷 Screenshots
 <p>
-  <img src = "https://github.com/user-attachments/assets/4170fcf3-0889-401a-a5b3-3818fa547479" height = 25%  width=25%>
+  <img src = "https://github.com/user-attachments/assets/0937133f-8400-4c10-bc89-eb6f037f4e5a" height = 25%  width=25%>
   <img src = "https://github.com/user-attachments/assets/cf52b7d9-aeeb-4b0e-9b52-f5a1952901d4" height = 25%  width=25%>
   
   <img src = "https://github.com/user-attachments/assets/eda132a0-2c0b-441f-98c5-c123036dea71" height = 25%  width=25%>
